@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tetris con HTML, CSS y JavaScript</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="left-div">
+        <img src="resources/logo.png" id="logo" />
+        <hr />
+
+        <div id="score-div">
+          <label> Score: </label>
+          <label id="score"></label>
+        </div>
+        <div id="lines-div">
+          <label> Lines: </label>
+          <label id="lines"></label>
+        </div>
+      </div>
+      <div id="game-container">
+        <img src="resources/background.png" id="background" />
+        <canvas id="game-canvas"></canvas>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloufare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloufare.com/ajax/libs/animatelo/1.0.3/animatelo.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
